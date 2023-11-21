@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(190, 244, 209);;
+}
+
+header .logo img{
+    width: 60px;
+}
+
+header {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+/* header */
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav ul li button {
+    /* background-color: gray; */
+    border: 1px solid grey;
+    width: 120px;
+    height: 30px;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent;
+}
+
+header .but button {
+    border-radius: 50px;
+    background-color: rgb(190, 244, 209);
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: black;
+    margin-right: 10px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+
+
+header .but button:hover {
+    background-color: green;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
